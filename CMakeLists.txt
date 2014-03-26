@@ -1,4 +1,5 @@
 cmake_minimum_required( VERSION 2.8.1 )
+set (CMAKE_Fortran_COMPILER_FORCED true)
 
 project( MAGMA C CXX Fortran )
 
