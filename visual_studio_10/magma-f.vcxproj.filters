@@ -1,0 +1,2587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\zcposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlauum_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ztrtri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zposv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotrf3_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zpotri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlauum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ztrtri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zcgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zcgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_nopiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgesv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetf2_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgetrf_incpiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgessm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zssssm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ztstrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zcgeqrsv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgelqf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgels3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgels_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgegqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqr2x_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqr2x_gpu-v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqr2x_gpu-v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrs3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlarfb_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlarfb_gpu_gemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmql2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmqr2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqp3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlaqps_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgelqf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf-v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqrf_ooc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungqr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeqp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlaqps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevdx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevdx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmtr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dstedx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlatrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlatrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zstedx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dmove_eig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlatrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex0_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex1_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaex3_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dstedx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zstedx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmtr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_aux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_applyQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_applyQ_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_aux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_kernel_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_he2hb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_hb2st.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zungqr_2stage_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunmqr_gpu_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_back_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zbulge_applyQ_v2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsyevdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zheevdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_he2hb_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhetrd_he2hb_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegst_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegst_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygvdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zhegvdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ztrsm_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgehrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgehrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlahr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlahru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunghr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeev_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgeev_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgehrd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlahr2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlahru_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zunghr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgesvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgesvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zgebrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zlabrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clauum_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ctrtri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cposv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotrf3_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpotri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clauum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ctrtri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_nopiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgesv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetf2_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgetrf_incpiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgessm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cssssm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ctstrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgelqf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgels3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgels_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgegqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqr2x_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqr2x_gpu-v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqr2x_gpu-v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrs3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clarfb_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clarfb_gpu_gemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmql2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmqr2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqp3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\claqps_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgelqf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf-v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqrf_ooc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungqr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeqp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\claqps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevdx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmtr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clatrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clatrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cstedx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clatrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cstedx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmtr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_applyQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_applyQ_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_aux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_kernel_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_he2hb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_hb2st.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cungqr_2stage_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunmqr_gpu_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_back_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cbulge_applyQ_v2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cheevdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_he2hb_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chetrd_he2hb_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegst_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegst_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chegvdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ctrsm_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgehrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgehrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clahr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clahru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunghr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgeev_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgehrd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clahr2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clahru_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cunghr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgesvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgebrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clabrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlauum_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dtrtri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dposv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotrf3_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dpotri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlauum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dtrtri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_nopiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgesv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetf2_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgetrf_incpiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgessm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dssssm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dtstrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsgeqrsv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgelqf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgels3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgels_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgegqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqr2x_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqr2x_gpu-v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqr2x_gpu-v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrs3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlarfb_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlarfb_gpu_gemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormql2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormqr2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqp3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaqps_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgelqf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf-v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqrf_ooc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgqr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgeqp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlaqps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormtr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlatrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlatrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlatrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormtr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_applyQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_applyQ_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_kernel_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_sy2sb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_sb2st.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorgqr_2stage_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dormqr_gpu_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_back_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbulge_applyQ_v2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_sy2sb_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsytrd_sy2sb_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygst_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dsygst_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dtrsm_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgehrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgehrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlahr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlahru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorghr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgehrd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlahr2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlahru_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dorghr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dgebrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dlabrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sposv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slauum_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\strtri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sposv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotrf3_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\spotri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slauum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\strtri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgesv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_nopiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetri_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf2_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgesv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetf2_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_nopiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgetrf_incpiv_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgessm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sssssm_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ststrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgelqf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgels3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgels_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgegqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqr2x_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqr2x_gpu-v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqr2x_gpu-v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrs3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrs_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slarfb_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slarfb_gpu_gemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormql2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormqr2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormqr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqp3_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaqps_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgelqf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf-v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqrf_ooc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgqr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeqp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaqps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgqr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevdx_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd2_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormtr_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sstedx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slatrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slatrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\smove_eig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slatrd_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex0_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex1_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slaex3_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sstedx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormtr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_aux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_applyQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_applyQ_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_kernel_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_sy2sb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_sb2st.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorgqr_2stage_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sormqr_gpu_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvdx_2stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_back_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbulge_applyQ_v2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssyevdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvdx_2stage_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_sy2sb_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssytrd_sy2sb_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygst_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygst_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ssygvdx_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\strsm_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgehrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgehrd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slahr2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slahru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorghr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgeev_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgehrd_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slahr2_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slahru_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sorghr_m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgesvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sgebrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\slabrd_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\zpanel_to_q.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\zprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_f77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\cpanel_to_q.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\cprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\dpanel_to_q.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\dprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\spanel_to_q.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\sprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\auxiliary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\get_nb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\strlcpy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\bulge_auxiliary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\affinity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\connection_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\pthread_barrier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\xerbla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_threadsetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magmawinthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_sf77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_df77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_cf77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\magma_zf77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\zhemm_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\zhemm_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\zher2k_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\zher2k_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\chemm_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\chemm_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\cher2k_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\cher2k_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\dsymm_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\dsymm_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\dsyr2k_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\dsyr2k_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\ssymm_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\ssymm_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\ssyr2k_mgpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\magmablas\ssyr2k_mgpu_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\blas_z.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\zset_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\blas_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\cset_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\blas_d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\dset_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\blas_s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\sset_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\alloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface_cuda\set_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\magmablas\zauxiliary.cu" />
+    <CustomBuild Include="..\magmablas\zcaxpycp.cu" />
+    <CustomBuild Include="..\magmablas\zclaswp.cu" />
+    <CustomBuild Include="..\magmablas\zgeadd.cu" />
+    <CustomBuild Include="..\magmablas\zgeadd_batched.cu" />
+    <CustomBuild Include="..\magmablas\zgemm_reduce.cu" />
+    <CustomBuild Include="..\magmablas\dgemv_MLU.cu" />
+    <CustomBuild Include="..\magmablas\zlacpy.cu" />
+    <CustomBuild Include="..\magmablas\zlacpy_batched.cu" />
+    <CustomBuild Include="..\magmablas\zlaqps2_gpu.cu" />
+    <CustomBuild Include="..\magmablas\zlaqps3_gpu.cu" />
+    <CustomBuild Include="..\magmablas\zlag2c.cu" />
+    <CustomBuild Include="..\magmablas\clag2z.cu" />
+    <CustomBuild Include="..\magmablas\zlange.cu" />
+    <CustomBuild Include="..\magmablas\zlanhe.cu" />
+    <CustomBuild Include="..\magmablas\zlarf.cu" />
+    <CustomBuild Include="..\magmablas\zlarfbx.cu" />
+    <CustomBuild Include="..\magmablas\zlarfx.cu" />
+    <CustomBuild Include="..\magmablas\dlarfg.cu" />
+    <CustomBuild Include="..\magmablas\zlarfg-v2.cu" />
+    <CustomBuild Include="..\magmablas\zlarfgx-v2.cu" />
+    <CustomBuild Include="..\magmablas\zlascl.cu" />
+    <CustomBuild Include="..\magmablas\zlaswp.cu" />
+    <CustomBuild Include="..\magmablas\zlat2c.cu" />
+    <CustomBuild Include="..\magmablas\dznrm2.cu" />
+    <CustomBuild Include="..\magmablas\stream.cu" />
+    <CustomBuild Include="..\magmablas\zswap.cu" />
+    <CustomBuild Include="..\magmablas\zswapblk.cu" />
+    <CustomBuild Include="..\magmablas\zswapdblk.cu" />
+    <CustomBuild Include="..\magmablas\zsymmetrize.cu" />
+    <CustomBuild Include="..\magmablas\zsymmetrize_tiles.cu" />
+    <CustomBuild Include="..\magmablas\ssyr2k.cu" />
+    <CustomBuild Include="..\magmablas\ztranspose.cu" />
+    <CustomBuild Include="..\magmablas\ztranspose-v2.cu" />
+    <CustomBuild Include="..\magmablas\ztranspose_inplace.cu" />
+    <CustomBuild Include="..\magmablas\zgetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\zsetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\dtrsm.cu" />
+    <CustomBuild Include="..\magmablas\dtrsm_work.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_a_0.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_ab_0.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_N_N.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_N_N_special.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_N_T.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_T_N.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_T_T.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_tesla_T_T_special.cu" />
+    <CustomBuild Include="..\magmablas\sgemv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\dgemv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\chemv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\csymv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\zgemm_fermi.cu" />
+    <CustomBuild Include="..\magmablas\sgemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\dgemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\zgemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\zhemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\zsymv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\zbcyclic.cu" />
+    <CustomBuild Include="..\magmablas\zgetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\zsetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\zhemv_fermi_mgpu_32.cu" />
+    <CustomBuild Include="..\magmablas\zhemv_fermi_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\zgetf2.cu" />
+    <CustomBuild Include="..\magmablas\zgeqr2.cu" />
+    <CustomBuild Include="..\magmablas\zgeqr2x_gpu-v4.cu" />
+    <CustomBuild Include="..\magmablas\zpotf2.cu" />
+    <CustomBuild Include="..\magmablas\cauxiliary.cu" />
+    <CustomBuild Include="..\magmablas\cgeadd.cu" />
+    <CustomBuild Include="..\magmablas\cgeadd_batched.cu" />
+    <CustomBuild Include="..\magmablas\cgemm_reduce.cu" />
+    <CustomBuild Include="..\magmablas\clacpy.cu" />
+    <CustomBuild Include="..\magmablas\clacpy_batched.cu" />
+    <CustomBuild Include="..\magmablas\claqps2_gpu.cu" />
+    <CustomBuild Include="..\magmablas\claqps3_gpu.cu" />
+    <CustomBuild Include="..\magmablas\clange.cu" />
+    <CustomBuild Include="..\magmablas\clanhe.cu" />
+    <CustomBuild Include="..\magmablas\clarf.cu" />
+    <CustomBuild Include="..\magmablas\clarfbx.cu" />
+    <CustomBuild Include="..\magmablas\clarfx.cu" />
+    <CustomBuild Include="..\magmablas\clarfg-v2.cu" />
+    <CustomBuild Include="..\magmablas\clarfgx-v2.cu" />
+    <CustomBuild Include="..\magmablas\clascl.cu" />
+    <CustomBuild Include="..\magmablas\claswp.cu" />
+    <CustomBuild Include="..\magmablas\scnrm2.cu" />
+    <CustomBuild Include="..\magmablas\cswap.cu" />
+    <CustomBuild Include="..\magmablas\cswapblk.cu" />
+    <CustomBuild Include="..\magmablas\cswapdblk.cu" />
+    <CustomBuild Include="..\magmablas\csymmetrize.cu" />
+    <CustomBuild Include="..\magmablas\csymmetrize_tiles.cu" />
+    <CustomBuild Include="..\magmablas\ctranspose.cu" />
+    <CustomBuild Include="..\magmablas\ctranspose-v2.cu" />
+    <CustomBuild Include="..\magmablas\ctranspose_inplace.cu" />
+    <CustomBuild Include="..\magmablas\cgetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\csetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\cgemm_fermi.cu" />
+    <CustomBuild Include="..\magmablas\cgemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\chemv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\csymv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\cbcyclic.cu" />
+    <CustomBuild Include="..\magmablas\cgetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\csetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\chemv_fermi_mgpu_32.cu" />
+    <CustomBuild Include="..\magmablas\chemv_fermi_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\cgetf2.cu" />
+    <CustomBuild Include="..\magmablas\cgeqr2.cu" />
+    <CustomBuild Include="..\magmablas\cgeqr2x_gpu-v4.cu" />
+    <CustomBuild Include="..\magmablas\cpotf2.cu" />
+    <CustomBuild Include="..\magmablas\dauxiliary.cu" />
+    <CustomBuild Include="..\magmablas\dsaxpycp.cu" />
+    <CustomBuild Include="..\magmablas\dslaswp.cu" />
+    <CustomBuild Include="..\magmablas\dgeadd.cu" />
+    <CustomBuild Include="..\magmablas\dgeadd_batched.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_reduce.cu" />
+    <CustomBuild Include="..\magmablas\dlacpy.cu" />
+    <CustomBuild Include="..\magmablas\dlacpy_batched.cu" />
+    <CustomBuild Include="..\magmablas\dlaqps2_gpu.cu" />
+    <CustomBuild Include="..\magmablas\dlaqps3_gpu.cu" />
+    <CustomBuild Include="..\magmablas\dlag2s.cu" />
+    <CustomBuild Include="..\magmablas\slag2d.cu" />
+    <CustomBuild Include="..\magmablas\dlange.cu" />
+    <CustomBuild Include="..\magmablas\dlansy.cu" />
+    <CustomBuild Include="..\magmablas\dlarf.cu" />
+    <CustomBuild Include="..\magmablas\dlarfbx.cu" />
+    <CustomBuild Include="..\magmablas\dlarfx.cu" />
+    <CustomBuild Include="..\magmablas\dlarfg-v2.cu" />
+    <CustomBuild Include="..\magmablas\dlarfgx-v2.cu" />
+    <CustomBuild Include="..\magmablas\dlascl.cu" />
+    <CustomBuild Include="..\magmablas\dlaswp.cu" />
+    <CustomBuild Include="..\magmablas\dlat2s.cu" />
+    <CustomBuild Include="..\magmablas\dnrm2.cu" />
+    <CustomBuild Include="..\magmablas\dswap.cu" />
+    <CustomBuild Include="..\magmablas\dswapblk.cu" />
+    <CustomBuild Include="..\magmablas\dswapdblk.cu" />
+    <CustomBuild Include="..\magmablas\dsymmetrize.cu" />
+    <CustomBuild Include="..\magmablas\dsymmetrize_tiles.cu" />
+    <CustomBuild Include="..\magmablas\dtranspose.cu" />
+    <CustomBuild Include="..\magmablas\dtranspose-v2.cu" />
+    <CustomBuild Include="..\magmablas\dtranspose_inplace.cu" />
+    <CustomBuild Include="..\magmablas\dgetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\dsetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\dsymv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\dgemm_fermi.cu" />
+    <CustomBuild Include="..\magmablas\dsymv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\dbcyclic.cu" />
+    <CustomBuild Include="..\magmablas\dgetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\dsetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\dsymv_fermi_mgpu_32.cu" />
+    <CustomBuild Include="..\magmablas\dsymv_fermi_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\dgetf2.cu" />
+    <CustomBuild Include="..\magmablas\dgeqr2.cu" />
+    <CustomBuild Include="..\magmablas\dgeqr2x_gpu-v4.cu" />
+    <CustomBuild Include="..\magmablas\dpotf2.cu" />
+    <CustomBuild Include="..\magmablas\sauxiliary.cu" />
+    <CustomBuild Include="..\magmablas\sgeadd.cu" />
+    <CustomBuild Include="..\magmablas\sgeadd_batched.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_reduce.cu" />
+    <CustomBuild Include="..\magmablas\slacpy.cu" />
+    <CustomBuild Include="..\magmablas\slacpy_batched.cu" />
+    <CustomBuild Include="..\magmablas\slaqps2_gpu.cu" />
+    <CustomBuild Include="..\magmablas\slaqps3_gpu.cu" />
+    <CustomBuild Include="..\magmablas\slange.cu" />
+    <CustomBuild Include="..\magmablas\slansy.cu" />
+    <CustomBuild Include="..\magmablas\slarf.cu" />
+    <CustomBuild Include="..\magmablas\slarfbx.cu" />
+    <CustomBuild Include="..\magmablas\slarfx.cu" />
+    <CustomBuild Include="..\magmablas\slarfg.cu" />
+    <CustomBuild Include="..\magmablas\slarfg-v2.cu" />
+    <CustomBuild Include="..\magmablas\slarfgx-v2.cu" />
+    <CustomBuild Include="..\magmablas\slascl.cu" />
+    <CustomBuild Include="..\magmablas\slaswp.cu" />
+    <CustomBuild Include="..\magmablas\snrm2.cu" />
+    <CustomBuild Include="..\magmablas\sswap.cu" />
+    <CustomBuild Include="..\magmablas\sswapblk.cu" />
+    <CustomBuild Include="..\magmablas\sswapdblk.cu" />
+    <CustomBuild Include="..\magmablas\ssymmetrize.cu" />
+    <CustomBuild Include="..\magmablas\ssymmetrize_tiles.cu" />
+    <CustomBuild Include="..\magmablas\stranspose.cu" />
+    <CustomBuild Include="..\magmablas\stranspose-v2.cu" />
+    <CustomBuild Include="..\magmablas\stranspose_inplace.cu" />
+    <CustomBuild Include="..\magmablas\sgetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\ssetmatrix_transpose.cu" />
+    <CustomBuild Include="..\magmablas\strsm.cu" />
+    <CustomBuild Include="..\magmablas\strsm_work.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_a_0.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_ab_0.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_N_N.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_N_N_special.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_N_T.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_T_N.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_T_T.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_tesla_T_T_special.cu" />
+    <CustomBuild Include="..\magmablas\ssymv_tesla.cu" />
+    <CustomBuild Include="..\magmablas\sgemm_fermi.cu" />
+    <CustomBuild Include="..\magmablas\ssymv_fermi.cu" />
+    <CustomBuild Include="..\magmablas\sbcyclic.cu" />
+    <CustomBuild Include="..\magmablas\sgetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\ssetmatrix_transpose_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\ssymv_fermi_mgpu_32.cu" />
+    <CustomBuild Include="..\magmablas\ssymv_fermi_mgpu.cu" />
+    <CustomBuild Include="..\magmablas\sgetf2.cu" />
+    <CustomBuild Include="..\magmablas\sgeqr2.cu" />
+    <CustomBuild Include="..\magmablas\sgeqr2x_gpu-v4.cu" />
+    <CustomBuild Include="..\magmablas\spotf2.cu" />
+    <CustomBuild Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zauxiliary.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zcaxpycp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zclaswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgeadd.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgeadd_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgemm_reduce.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemv_MLU.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlacpy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlacpy_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlaqps2_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlaqps3_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlag2c.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clag2z.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlange.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlanhe.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlarf.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlarfbx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlarfx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarfg.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlarfg-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlarfgx-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlascl.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlaswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zlat2c.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dznrm2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_stream.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zswap.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zswapblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zswapdblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zsymmetrize.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zsymmetrize_tiles.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssyr2k.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ztranspose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ztranspose-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ztranspose_inplace.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zsetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dtrsm.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dtrsm_work.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_a_0.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_ab_0.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_N_N.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_N_N_special.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_N_T.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_T_N.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_T_T.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_tesla_T_T_special.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_chemv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csymv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgemm_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zhemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zsymv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zbcyclic.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zsetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zhemv_fermi_mgpu_32.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zhemv_fermi_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgetf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgeqr2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zgeqr2x_gpu-v4.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_zpotf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cauxiliary.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgeadd.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgeadd_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgemm_reduce.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clacpy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clacpy_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_claqps2_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_claqps3_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clange.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clanhe.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clarf.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clarfbx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clarfx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clarfg-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clarfgx-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_clascl.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_claswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_scnrm2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cswap.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cswapblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cswapdblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csymmetrize.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csymmetrize_tiles.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ctranspose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ctranspose-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ctranspose_inplace.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgemm_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_chemv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csymv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cbcyclic.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_csetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_chemv_fermi_mgpu_32.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_chemv_fermi_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgetf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgeqr2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cgeqr2x_gpu-v4.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_cpotf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dauxiliary.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsaxpycp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dslaswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgeadd.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgeadd_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_reduce.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlacpy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlacpy_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlaqps2_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlaqps3_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlag2s.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slag2d.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlange.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlansy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarf.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarfbx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarfx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarfg-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlarfgx-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlascl.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlaswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dlat2s.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dnrm2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dswap.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dswapblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dswapdblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymmetrize.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymmetrize_tiles.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dtranspose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dtranspose-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dtranspose_inplace.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgemm_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dbcyclic.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymv_fermi_mgpu_32.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dsymv_fermi_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgetf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgeqr2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dgeqr2x_gpu-v4.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_dpotf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sauxiliary.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgeadd.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgeadd_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_reduce.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slacpy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slacpy_batched.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slaqps2_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slaqps3_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slange.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slansy.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarf.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarfbx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarfx.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarfg.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarfg-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slarfgx-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slascl.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_slaswp.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_snrm2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sswap.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sswapblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sswapdblk.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymmetrize.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymmetrize_tiles.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_stranspose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_stranspose-v2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_stranspose_inplace.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssetmatrix_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_strsm.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_strsm_work.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_a_0.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_ab_0.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_N_N.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_N_N_special.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_N_T.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_T_N.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_T_T.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_tesla_T_T_special.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymv_tesla.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgemm_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymv_fermi.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sbcyclic.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssetmatrix_transpose_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymv_fermi_mgpu_32.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_ssymv_fermi_mgpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgetf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgeqr2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_sgeqr2x_gpu-v4.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\magma.dir\magmablas\$(Configuration)\magma_generated_spotf2.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CF209DBB-D576-4EA6-A11C-93799A2712FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{351E9E70-62C0-4DBD-8398-9095C6F4A322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
